@@ -1,10 +1,14 @@
 {
   "name": "citas-react",
   "version": "0.0.0",
+  "homepage": "https://rgomez2978.github.io/react-vite-citas-veterinaria",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^17.0.0",
