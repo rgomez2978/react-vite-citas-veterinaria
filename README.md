@@ -11,8 +11,9 @@ Proyecto de creación de citas veterinaria, Elaborado en [React](https://github.
 
 ## Instalación de Librerias
 A continuación se indican las librerias necesarias para la ejecución del proyecto.
-      npm i
-      npm i gh-pages --save-dev
+
+    npm i
+    npm i gh-pages --save-dev
 
 ## Levantar proyecto React
     npm run dev
